@@ -1,0 +1,399 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --secondary-color: #060c5f;
+  --second-text-color: #1a1a1a;
+  --darker-bg: #f9f9f9;
+}
+
+#about-section {
+  padding: 0;
+}
+
+.about-section {
+  text-align: center;
+  padding: 250px 0;
+  margin-bottom: 50px;
+  color: #fff;
+}
+
+.about-section h2 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+  color: #fff;
+}
+
+.about-section p {
+  font-size: 1.3rem;
+  margin-bottom: 30px;
+  color: #fff;
+}
+
+/* hero */
+.hero-section {
+  text-align: center;
+  padding: 50px 0;
+}
+
+.hero-section h3 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  max-width: 1000px;
+  margin: 10px auto;
+}
+
+.hero-section p {
+  color: var(--second-text-color);
+  font-size: 1.2rem;
+}
+
+/* card */
+
+.card {
+  max-width: 1200px;
+  width: 100%;
+  min-width: calc(1200px - 1000px);
+  aspect-ratio: 2 / 1;
+  height: auto;
+  margin: 35px auto;
+  perspective: 2000px;
+}
+
+.card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.9s ease;
+  transform-style: preserve-3d;
+}
+
+.card:hover .card-inner {
+  transform: rotateY(180deg);
+}
+
+.card-front,
+.card-back {
+  position: absolute;
+  inset: 0; /* top:0; right:0; bottom:0; left:0 */
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  border-radius: 3px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+}
+
+.card-front {
+  background: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-front img {
+  width: 100%;
+  height: 100%;
+  border-radius: 3px;
+  object-fit: cover;
+  display: block;
+}
+
+.card-back {
+  color: white;
+  transform: rotateY(180deg);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.card-back .back-content {
+  max-height: 100%;
+  overflow: auto;
+  width: 100%;
+}
+
+.card-back .card-actions {
+  display: flex;
+  gap: 12px;
+  margin-top: 12px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.btn {
+  background: transparent;
+  border: 1px solid #fff;
+  color: #fff;
+  margin-top: 30px;
+  padding: 25px;
+  transition: all 0.5s ease;
+}
+.btn:hover {
+  transform: translateY(-10px);
+  background: transparent;
+}
+
+/* about each */
+
+#about-each h3 {
+  text-align: center;
+  padding-top: 20px;
+  font-size: 1.5rem;
+}
+
+.about-each-grid-container {
+  max-width: 1200px;
+  margin: 20px auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  align-items: center;
+  gap: 30px;
+  padding: 10px 0;
+}
+
+.about-each-img {
+  max-width: 600px;
+}
+
+.about-each-img img {
+  min-width: 150px;
+  width: 100%;
+  height: auto;
+  border-radius: var(--radius);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  transition: transform 0.5s ease;
+}
+
+.about-each-img img:hover {
+  transform: scale(1.02);
+}
+
+.about-each-text {
+  font-size: 1.1rem;
+  text-align: justify;
+  line-height: 2;
+  margin: 0 20px;
+  color: var(--second-text-color);
+}
+
+.about-each-text p {
+  font-size: 1rem;
+  margin: 1.2rem 0;
+}
+
+/* features */
+.features {
+  max-width: 1200px;
+  margin: auto;
+}
+
+.features-grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 30px;
+  margin: 30px auto;
+}
+
+.feature {
+  padding: 60px 20px;
+  box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.15);
+  transition: box-shadow 0.8s ease;
+  border-radius: 3px;
+}
+
+.feature:hover {
+  box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.feature i {
+  font-size: 1.5rem;
+}
+
+/* demo video */
+
+#contact,
+#demo {
+  background-color: #f7f7f7;
+}
+
+#demo {
+  margin: 25px auto;
+  padding: inherit 0;
+}
+
+#demo h3,
+#features h3 {
+  text-align: center;
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  color: var(--second-text-color);
+}
+
+.demo-video {
+  display: block;
+  width: 100%;
+  padding: 30px 0;
+}
+
+/* installation */
+#installation {
+  text-align: center;
+}
+
+#installation h3 {
+  font-size: 1.5rem;
+  padding-top: 50px;
+}
+.installation {
+  text-align: center;
+  color: #fff;
+  padding: 30px;
+  max-width: 1200px;
+  margin: 50px auto;
+  align-items: center;
+}
+
+.installation-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 40px;
+  margin: 30px;
+}
+
+.installation-card {
+  background: #fff;
+  border: 1px solid var(--second-text-color);
+  border-radius: 3px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+  padding: 30px 20px;
+  transition: transform 0.5s;
+  text-align: left;
+  color: var(--second-text-color);
+}
+
+.installation-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+.installation-card h4 {
+  margin-bottom: 20px;
+  color: var(--second-text-color);
+}
+
+h3 {
+  color: var(--second-text-color);
+}
+
+@media only screen and (max-width: 1200px) {
+  .card {
+    width: calc(100% - 80px);
+    max-width: calc(1200px - 80px);
+    margin: 35px auto;
+  }
+
+  .hero-section h3 {
+    font-size: 1.4rem;
+    font-weight: 600;
+    max-width: 900px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .about-each-grid-container {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 0;
+    gap: 30px;
+  }
+
+  #about-each h3 {
+    font-size: 1.2rem;
+  }
+
+  .about-each-img {
+    max-width: 500px;
+  }
+
+  .about-each-text p {
+    font-size: 0.9rem;
+    margin: 0.9rem 0;
+  }
+
+  .card-button .btn {
+    margin-top: 20px;
+    padding: 15px;
+  }
+  .hero-section h3 {
+    font-size: 1.3rem;
+    max-width: 700px;
+  }
+
+  .hero-section p {
+    font-size: 1rem;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .card {
+    aspect-ratio: 16 / 9;
+    margin: 20px auto;
+  }
+
+  .card-back {
+    padding: 12px;
+    font-size: 15px;
+  }
+
+  .card-front img {
+    object-position: center top;
+  }
+  .hero-section h3 {
+    font-size: 1.2rem;
+    max-width: 550px;
+  }
+
+  .hero-section p {
+    font-size: 1rem;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  .card {
+    aspect-ratio: 4 / 3;
+    margin: 10px auto;
+  }
+
+  .card-back {
+    font-size: 14px;
+    padding: 10px;
+  }
+
+  .card-back .card-actions {
+    gap: 8px;
+  }
+
+  .card-button .btn {
+    padding: 10px;
+  }
+  .hero-section h3 {
+    font-size: 1.2rem;
+    max-width: 300px;
+  }
+
+  .hero-section p {
+    font-size: 0.8rem;
+  }
+}

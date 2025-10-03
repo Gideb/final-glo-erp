@@ -1,0 +1,409 @@
+/* * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+} */
+
+:root {
+  --text-color: #055f80;
+  --second-text-color: #1d1d1d;
+  --new-text: #eee;
+}
+
+#hero-section{
+  margin: 0;
+  padding: 0;
+}
+
+.hero-div {
+  text-align: center;
+  margin: 0;
+  padding: 120px 0;
+  background: url(../images/glo-products/banners/blue.jpg);
+  background-size: cover;
+}
+
+.hero-div h1 {
+  font-size: 2rem;
+  color: var(--new-text);
+  margin-bottom: 10px;
+}
+.hero-div p {
+  font-size: 1rem;
+  color: var(--new-text);
+  margin-bottom: 20px;
+}
+
+.cta-product {
+  position: relative;
+  bottom: 0;
+  border: 1px solid #055f80;
+  padding: 15px;
+  margin-top: 10px;
+  border-radius: 3px;
+  transition: transform 0.5s ease;
+}
+
+.cta-product:hover {
+  transform: translateX(10px);
+}
+
+.cta-product a {
+  text-decoration: none;
+  color: #055f80;
+  font-weight: 400;
+}
+
+.product-card::before {
+  content: "";
+  background: none;
+}
+
+.product-card:hover::before {
+  top: 0;
+  opacity: 0;
+}
+
+/* 
+#about-erp {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: 20px auto;
+}
+
+.about-erp {
+  position: relative;
+  float: left;
+  max-width: 1000px;
+  margin: 40px auto;
+  padding: 0 150px;
+  text-align: center;
+}
+
+.about-erp h2 {
+  color: var(--text-color);
+  margin-bottom: 20px;
+  font-weight: 700;
+}
+
+.about-erp p {
+  color: var(--second-text-color);
+  font-size: 1rem;
+  line-height: 1.8;
+  margin-bottom: 18px;
+  text-align: justify;
+}
+
+.about-erp-img {
+  flex: 1 1 0;
+  min-width: 400px;
+  height: auto;
+  position: relative;
+  float: right;
+  width: 80%;
+  top: 20px;
+  opacity: 0.7;
+  filter: grayscale(60%);
+}
+
+.about-erp-img img {
+  width: 80%;
+  height: auto;
+}
+ */
+
+#benefits {
+  padding: 30px 20px;
+  /*  background-color: #f7f7f7; */
+}
+
+.benefits h2 {
+  text-align: center;
+  margin-bottom: 40px;
+  color: var(--second-text-color);
+  font-size: 1.6rem;
+}
+
+.benefits {
+  margin: 40px auto;
+  max-width: 1200px;
+  text-align: center;
+}
+
+.benefits-grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  list-style: none;
+  gap: 30px;
+  margin: 0 auto;
+}
+
+.benefits-grid,
+.benefits-grid ul li {
+  background: #fff;
+  padding: 25px;
+  border-radius: 7px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  text-align: left;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+:is(.benefits-grid, .benefits-grid ul li):hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
+}
+
+.benefits-grid strong {
+  display: flex;
+  align-items: center;
+  font-size: 1.2rem;
+  margin-bottom: 12px;
+  color: var(--text-color);
+  font-weight: 600;
+}
+
+.benefits-grid strong i {
+  margin-right: 10px;
+  font-size: 1.3rem;
+  color: var(--text-color);
+  transition: transform 0.3s;
+}
+
+.benefits-grid:hover strong i {
+  transform: scale(1.2);
+}
+
+.benefits-grid ul {
+  padding-left: 20px;
+}
+
+.benefits-grid ul li {
+  margin-bottom: 6px;
+  color: #080808;
+}
+
+.marquee {
+  max-width: 100%;
+  overflow: hidden;
+  white-space: nowrap;
+  margin: 25px auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #f7f7f7;
+}
+
+.marquee-content {
+  display: flex;
+  justify-content: space-around;
+  gap: 100px;
+  animation: scroll-left 15s linear infinite;
+}
+
+.marquee-content:hover {
+  animation-play-state: paused;
+}
+
+.company-logo img {
+  width: 200px;
+  height: auto;
+  opacity: 0.7;
+  filter: grayscale(50%);
+  transition: all 0.3s ease-in-out;
+}
+
+.company-logo img:hover {
+  opacity: 1;
+  filter: grayscale(0%);
+  transform: scale(1.1);
+}
+
+@keyframes scroll-left {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+#contact {
+  text-align: center;
+}
+
+.contact {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 100px;
+  max-width: 1600px;
+  margin: auto;
+}
+
+
+.demo-contact-cont {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.fa-phone-volume {
+  transform: rotate(-30deg);
+}
+
+.demo-contact-cont a {
+  color: #055f80;
+  text-decoration: none;
+  border-radius: 5px;
+  padding: 20px 35px;
+  border: 1px solid #055f80;
+  background-color: transparent;
+  transition: transform 0.5s ease;
+}
+
+.demo-contact-cont a:hover {
+  transform: translateY(-10px);
+}
+
+.contact h4 {
+  font-size: 1.8rem;
+  text-align: left;
+  max-width: 50%;
+  word-wrap: normal;
+}
+
+.cta-button {
+  margin: 10px;
+}
+
+/* 
+@media only screen and (max-width: 1440px) {
+  .about-erp {
+    max-width: 800px;
+    padding: 0 80px;
+  }
+
+  .about-erp-img img {
+    width: 80%;
+    height: auto;
+  }
+
+  .hero-section h1 {
+    font-size: 1.5rem;
+  }
+
+  .hero-section p {
+    font-size: 0.9rem;
+  }
+
+  .about-erp p {
+    font-size: 0.9rem;
+    line-height: 1.4rem;
+  }
+
+   .about-erp-img {
+    max-width: 500px;
+    min-width: 200px;
+    right: 50px;
+  }
+
+  .about-erp-img img {
+    width: 90%;
+  }
+
+  .benefits {
+    padding: 30px;
+  }
+
+  #benefits {
+    padding: 30px 80px;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .header-section {
+    padding: 10px 100px;
+  }
+  .header-nav {
+    left: 650px;
+  }
+
+  .hero-section {
+    padding: 40px 0;
+  }
+
+  #about-erp {
+    display: flex;
+    flex-direction: column;
+    left: 0;
+    margin-bottom: 50px;
+  }
+
+  .about-erp {
+    max-width: 880px;
+  }
+
+  .about-erp p {
+    font-size: 1rem;
+    line-height: 1.8rem;
+  }
+
+  .about-erp-img {
+    max-width: 700px;
+    min-width: 400px;
+    right: 0;
+  }
+
+  .about-erp-img img {
+    width: 95%;
+    margin: auto;
+  }
+
+  .about-erp,
+  .benefits {
+    padding: 30px;
+  }
+
+  #benefits {
+    padding: 30px 80px;
+  }
+  .col-3 .dash {
+    margin-right: 270px;
+  }
+}
+ */
+@media only screen and (max-width: 768px) {
+  #benefits {
+    padding: 20px;
+  }
+  .benefits-grid {
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  }
+
+  #products {
+    padding-top: 100px;
+  }
+
+  .contact {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .demo-contact-cont {
+    flex-direction: row;
+  }
+  .contact h4 {
+    text-align: center;
+    max-width: 80%;
+  }
+}
+
+@media (max-width: 500px) {
+  .demo-contact-cont {
+    flex-direction: column;
+  }
+  .contact h4 {
+    max-width: 90%;
+  }
+}
