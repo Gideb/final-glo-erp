@@ -27,13 +27,13 @@
     </div>
   </section>
 
-
-  <div class="contact-container">
-    <legend>
+<legend>
       Use the form below to request a personalized demo of any GLO-ERP product. We’re here to help with all
       questions and inquiries.
     </legend>
 
+
+  <div class="contact-container">
 
     <div class="form-grid">
       <div class="form-image">

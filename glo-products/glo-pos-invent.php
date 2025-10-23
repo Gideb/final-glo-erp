@@ -97,16 +97,16 @@
 
         <div class="features-grid-container">
           <div class="feature">
-            <i class="fa-regular fa-calendar-check pos"></i> <br> <strong class="pos">Stock Management</strong> <br><br> Real-time tracking, barcoding, and warehouse transfers
+            <i class="fas fa-warehouse pos"></i> <br> <strong class="pos">Stock Management</strong> <br><br> Real-time tracking, barcoding, and warehouse transfers
           </div>
           <div class="feature">
-            <i class="fas fa-bed pos"></i> <br> <strong class="pos">POS Transactions </strong> <br><br> Fast checkout, multiple payments, and receipt printing.
+            <i class="fa-solid fa-money-check-dollar pos"></i> <br> <strong class="pos">POS Transactions </strong> <br><br> Fast checkout, multiple payments, and receipt printing.
           </div>
           <div class="feature">
-            <i class="fa-solid fa-toolbox pos"></i> <br><strong class="pos"> Finance & Expenses </strong> <br><br> Manage accounts, expenses, and generate financial reports.
+            <i class="fa-solid fa-coins pos"></i> <br><strong class="pos"> Finance & Expenses </strong> <br><br> Manage accounts, expenses, and generate financial reports.
           </div>
           <div class="feature">
-            <i class="fa-regular fa-credit-card pos"></i> <br><strong class="pos">Reports & Insights</strong> <br> <br> Access sales, inventory, and tax reports for smart decisions.
+            <i class="fa-solid fa-file-invoice-dollar pos"></i> <br><strong class="pos">Reports & Insights</strong> <br> <br> Access sales, inventory, and tax reports for smart decisions.
           </div>
         </div>
 

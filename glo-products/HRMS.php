@@ -73,30 +73,9 @@
         </div>
         <div class="about-each-text hrms">
           <h3>ABOUT GLO Human Resource Management System</h3>
-          <!--  <p>
-            <strong>GLO Human Resource Management System (HRMS)</strong> is a
-            comprehensive, web-based platform designed to automate and
-            optimize HR operations for organizations of all sizes. The system
-            offers intuitive tools for managing employee records, recruitment,
-            onboarding, attendance, and leave.
-          </p>
-          <p>
-            HR teams can efficiently handle payroll processing, benefits
-            administration, performance appraisals, and compliance tracking.
-            Employees have secure access to their profiles, payslips, and
-            leave requests, fostering transparency and engagement.
-          </p>
-          <p>
-            Advanced analytics and reporting provide insights into workforce
-            trends, helping managers make informed decisions. GLO HRMS is
-            scalable, secure, and customizable to fit your unique HR needs.
-          </p>
-          <p>
-            With GLO HRMS, you can reduce manual tasks, minimize errors, and
-            focus on building a productive and satisfied workforce.
-          </p> -->
-          <p><strong>GLO Human Resource Management System</strong> is a complete human resource management solution designed to simplify HR operations and improve employee experience. It automates core HR functions such as recruitment, payroll, attendance, performance evaluation, and compliance tracking.</p>
-          <p> With self-service portals for employees and managers, it reduces paperwork and ensures smoother workflows. GLO HRMS empowers organizations to manage their workforce effectively while fostering productivity, transparency, and employee satisfaction.</p>
+
+          <p><strong>GLO Human Resource Management System</strong> is a comprehensive, future-ready human resource platform built to manage every stage of the employee lifecycle. It simplifies core HR processes such as recruitment, payroll, attendance, and performance management, all while ensuring global compliance and data security. </p>
+          <p>With integrated analytics and self-service portals, GLO-HRMS empowers both HR teams and employees with transparency, efficiency, and insight. Scalable and modular, it adapts perfectly to organizations of all sizes and industries.</p>
         </div>
       </div>
     </section>
@@ -108,16 +87,16 @@
 
         <div class="features-grid-container">
           <div class="feature">
-            <i class="fa-solid fa-address-card hrms"></i> <br> <strong class="hrms">Employee Records </strong> <br><br> Centralized staff profiles with personal and work details.
+            <i class="fa-solid fa-address-card hrms"></i> <br> <strong class="hrms">Employee Hub</strong> <br><br> Centralized employee data, organizational hierarchy, and digital document management.
           </div>
           <div class="feature">
-            <i class="fas fa-file-invoice-dollar hrms"></i> <br> <strong class="hrms">Payroll & Attendance </strong> <br><br> Automated payroll, leave tracking, and time management.
+            <i class="fas fa-file-invoice-dollar hrms"></i> <br> <strong class="hrms"> Payroll & Workforce Management </strong> <br><br> Integrated attendance, leave tracking, and global payroll processing.
           </div>
           <div class="feature">
-            <i class="fa-solid fa-chart-line hrms"></i> <br><strong class="hrms"> Performance Management </strong> <br><br> Track appraisals, reviews, and skill development.
+            <i class="fa-solid fa-chart-line hrms"></i> <br><strong class="hrms">Performance & Learning </strong> <br><br> Continuous feedback, goal tracking, and personalized learning paths.
           </div>
           <div class="feature">
-            <i class="fa-solid fa-house-user hrms"></i> <br><strong class="hrms">Self-Service Portal </strong> <br> <br> Allow employees to manage requests and view payslips.
+            <i class="fa-solid fa-house-user hrms"></i> <br><strong class="hrms">Recruitment & Onboarding </strong> <br> <br> Automated job posting, candidate tracking, and paperless onboarding workflows.
           </div>
         </div>
 

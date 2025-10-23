@@ -193,7 +193,7 @@
           <p>Seamless online ordering, efficient management, and enhanced customer experience to drive loyalty and boost sales by simplifying your daily operations effortlessly.</p>
           <div class="cta-product">
             <a
-              href="../GloERP/glo-products/food-ordering.php">View Product <i class="fa-solid fa-arrow-right"></i></a>
+              href="../GloERP/glo-products/restaurant.php">View Product <i class="fa-solid fa-arrow-right"></i></a>
           </div>
         </div>
 

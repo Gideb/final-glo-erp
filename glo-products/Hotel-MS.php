@@ -48,7 +48,7 @@
           <div class="card-inner">
             <div class="card-front">
               <img
-                src="../images/glo-products/banners/gloposshot.png"
+                src="../images/glo-products/banners/glohotelshot.png"
                 alt="glo hotel management system screenshot" />
             </div>
             <div class="card-back hotel">
@@ -114,7 +114,7 @@
 
         <div class="features-grid-container">
           <div class="feature">
-            <i class="fa-regular fa-calendar-check hotel"></i> <br> <strong class="hotel">Smart Booking Engine</strong> <br><br> Handle online reservations with real-time availability and group bookings
+            <i class="fa-solid fa-desktop hotel"></i> <br> <strong class="hotel">Smart Booking Engine</strong> <br><br> Handle online reservations with real-time availability and group bookings
           </div>
           <div class="feature">
             <i class="fas fa-bed hotel"></i> <br> <strong class="hotel">Room & Rate Control </strong> <br><br> Manage room types, statuses, and dynamic pricing to boost revenue.
@@ -123,7 +123,7 @@
             <i class="fa-solid fa-toolbox hotel"></i> <br><strong class="hotel"> Guest Experience Tools </strong> <br><br> Offer add-ons, vouchers, and personalized services.
           </div>
           <div class="feature">
-            <i class="fa-regular fa-credit-card hotel"></i> <br><strong class="hotel">Payment & Messaging </strong> <br> <br> Secure payments with automated email/SMS communication.
+            <i class="fa-solid fa-comment-dollar hotel"></i> <br><strong class="hotel">Payment & Messaging </strong> <br> <br> Secure payments with automated email/SMS communication.
           </div>
         </div>
 
@@ -166,6 +166,8 @@
         </div>
       </div>
     </section>
+
+
     <?php include '../includes/gotoContDemo.php' ?>
 
 
@@ -181,6 +183,8 @@
         </div>
       </div>
     </section> -->
+
+
   </main>
 
   <!-- Footer -->

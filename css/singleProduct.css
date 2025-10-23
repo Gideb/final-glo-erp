@@ -10,6 +10,11 @@
   --darker-bg: #f9f9f9;
 }
 
+header nav ul li a::before,
+header nav ul li a::after{
+  content: none !important;
+}
+
 #about-section {
   padding: 0;
 }
@@ -218,7 +223,7 @@
 }
 
 .feature i {
-  font-size: 1.5rem;
+  font-size: 2rem;
 }
 
 /* demo video */

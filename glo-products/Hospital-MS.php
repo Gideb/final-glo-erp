@@ -70,37 +70,11 @@
         </div>
         <div class="about-each-text hms">
           <h3>ABOUT GLO Hospital Management System</h3>
-          <!--  <p>
-            <strong>GLO Hospital Management System (HMS)</strong> is a robust,
-            web-based solution designed to optimize every aspect of hospital
-            operations. With an intuitive interface and powerful modules, GLO
-            HMS helps healthcare providers deliver efficient, high-quality
-            patient care while streamlining administrative tasks.
-          </p>
-          <p>
-            The system enables seamless management of patient records,
-            appointments, admissions, discharges, and transfers. Doctors and
-            nurses can easily access medical histories, treatment plans, and
-            diagnostic results, ensuring informed decision-making and
-            continuity of care.
-          </p>
 
           <p>
-            The system is built with security and compliance in mind,
-            safeguarding sensitive patient data and supporting regulatory
-            requirements.
+            <strong>GLO Hospital Management System </strong> is an all-in-one healthcare platform designed to enhance patient care, streamline hospital operations, and ensure regulatory compliance. It integrates modules for patient records, billing, laboratory, pharmacy, and inventory management.
           </p>
-          <p>
-            Whether you run a small clinic or a large hospital, GLO HMS adapts
-            to your needs, helping you improve operational efficiency, reduce
-            errors, and focus on what matters most—patient health and
-            satisfaction.
-          </p> -->
-          <p>
-            <strong>GLO Hospital Management System </strong> is a comprehensive, cloud-based healthcare solution designed to streamline hospital operations, improve patient care, and optimize resource management. It integrates patient registration, electronic medical records, billing, pharmacy, laboratory, and staff management into a single platform.
-          </p>
-          <p>
-            By automating workflows and ensuring data accuracy, GLO Hospital Management System enhances operational efficiency, reduces errors, and enables healthcare providers to focus on what matters most — delivering quality care. Scalable and secure, it is suitable for hospitals, clinics, and healthcare centers of all sizes.
+          <p> With robust security features and analytics, hospitals can optimize workflows, improve decision-making, and deliver better healthcare outcomes. Whether it’s a small clinic or a large medical center, GLO HMS provides the efficiency and precision healthcare facilities need.
 
           </p>
         </div>
@@ -113,16 +87,16 @@
 
         <div class="features-grid-container">
           <div class="feature">
-            <i class="fa-solid fa-hospital-user hospital"></i> <br> <strong class="hospital"> Patient Management</strong> <br><br> Register patients, track medical history, and manage appointments.
+            <i class="fa-solid fa-hospital-user hospital"></i> <br> <strong class="hospital"> Patient & Staff Management </strong> <br><br> Handle appointments, check-ins, and workforce scheduling effortlessly.
           </div>
           <div class="feature">
-            <i class="fas fa-notes-medical hospital"></i> <br> <strong class="hospital">Electronic Medical Records (EMR) </strong> <br> Store and access patient diagnoses, lab results, and treatment plans securely.
+            <i class="fas fa-notes-medical hospital"></i> <br> <strong class="hospital">Electronic Health Records (EHR)</strong> <br> Centralized patient data with secure access and real-time updates.
           </div>
           <div class="feature">
-            <i class="fa-solid fa-toolbox hospital"></i> <br><strong class="hospital">Billing & Finance </strong> <br><br> Handle invoices, insurance claims, and payments seamlessly.
+            <i class="fa-solid fa-file-invoice-dollar hospital"></i> <br><strong class="hospital">Billing & Financial Control </strong> <br><br> Automate invoices, claims, and financial reports for smooth operations.
           </div>
           <div class="feature">
-            <i class="fa-solid fa-briefcase-medical hospital"></i> <br><strong class="hospital">Resource & Staff Management</strong> <br> Manage doctors, nurses, schedules, and hospital assets efficiently.
+            <i class="fa-solid fa-share-nodes hospital"></i> <br><strong class="hospital">Advanced Modules </strong> <br> Integrated LIS, pharmacy, bed management, and telemedicine support.
           </div>
         </div>
 

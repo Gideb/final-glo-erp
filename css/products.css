@@ -38,7 +38,6 @@
   position: relative;
   bottom: 0;
   border: 1px solid #055f80;
-  padding: 15px;
   margin-top: 10px;
   border-radius: 3px;
   transition: transform 0.5s ease;
@@ -52,6 +51,9 @@
   text-decoration: none;
   color: #055f80;
   font-weight: 400;
+  display: block;
+  padding: 15px 20px;
+
 }
 
 .product-card::before {

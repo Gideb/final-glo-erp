@@ -73,35 +73,11 @@
         </div>
         <div class="about-each-text food">
           <h3>ABOUT GLO Food Ordering System</h3>
-          <!--  <p>
-            <strong>GLO Food Ordering System</strong> is a comprehensive,
-            web-based solution designed for restaurants, cafes, and food
-            delivery businesses. It streamlines the entire ordering process,
-            from menu browsing to payment and delivery, making operations
-            smoother and more efficient.
-          </p>
+
           <p>
-            Customers can easily place orders online, customize their meals,
-            and choose delivery or pickup options. The system supports
-            real-time order tracking, automated notifications, and secure
-            payment processing, ensuring a hassle-free experience for both
-            customers and staff.
+            <strong> GLO Restaurant Management System </strong> is a modern, cloud-based restaurant management solution that connects front-of-house, kitchen, and back-office operations into one seamless platform.
           </p>
-          <p>
-            Powerful management tools allow you to update menus, manage
-            inventory, track sales, and analyze customer preferences.
-            Integration with POS and kitchen display systems helps reduce
-            errors and speed up service.
-          </p>
-          <p>
-            GLO Food Ordering System is scalable and secure, suitable for
-            single outlets or multi-location chains. Enhance your business
-            efficiency, boost sales, and deliver exceptional service with GLO.
-          </p> -->
-          <p>
-            <strong> GLO Restaurant Management System </strong> is designed to help restaurants, cafés, and food outlets run smoothly. It combines table reservations, order processing, kitchen coordination, and payment handling into one intuitive system.
-          </p>
-          <p> With features that improve customer experience, track sales, and manage inventory, GLO Restaurant Management System reduces bottlenecks and ensures quick service. Its reporting tools help managers monitor performance, cut costs, and make smarter business decisions while delivering outstanding dining experiences.</p>
+          <p> It enhances order accuracy, inventory control, and customer satisfaction through intelligent POS, kitchen display systems, and analytics. From small cafés to multi-branch restaurants, GLO-RMS provides the tools to boost efficiency, reduce waste, and deliver consistent service excellence.</p>
         </div>
       </div>
     </section>
@@ -114,16 +90,16 @@
 
         <div class="features-grid-container">
           <div class="feature">
-            <i class="fas fa-concierge-bell food"></i> <br> <strong class="food"> Order & Table Management </strong> <br><br>Handle reservations and track dine-in orders easily.
+            <i class="fas fa-desktop food"></i> <br> <strong class="food"> POS & Table Management </strong> <br><br> Fast order processing, digital menus, and real-time table tracking.
           </div>
           <div class="feature">
-            <i class="fas fa-utensils food"></i> <br> <strong class="food">Menu Control </strong> <br><br> Manage digital menus, pricing, and specials in real-time.
+            <i class="fas fa-utensils food"></i> <br> <strong class="food"> Kitchen & Recipe Control</strong> <br><br> Smart kitchen display system with costed recipes and prep planning.
           </div>
           <div class="feature">
-            <i class="fa-solid fa-cash-register food"></i> <br><strong class="food">POS Integration </strong> <br><br> Streamlined billing with cash, card, and mobile payments.
+            <i class="fa-solid fa-concierge-bell food"></i> <br><strong class="food">Inventory & Supply Chain </strong> <br><br> Real-time ingredient tracking, purchase orders, and waste reduction tools.
           </div>
           <div class="feature">
-            <i class="fa-solid fa-desktop food"></i> <br><strong class="food">Kitchen Display System </strong> <br> <br> Coordinate orders directly with kitchen staff
+            <i class="fa-solid fa-comment-dollar food"></i> <br><strong class="food">Analytics & CRM </strong> <br> <br> Advanced sales dashboards, customer insights, and loyalty management.
           </div>
         </div>
 

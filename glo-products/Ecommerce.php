@@ -95,32 +95,7 @@
         </div>
         <div class="about-each-text ecommerce">
           <h3>ABOUT GLO Ecommerce System</h3>
-          <!-- <p>
-            <strong>GLO Ecommerce System</strong> is a powerful, web-based
-            solution designed for businesses of all sizes to sell products and
-            services online. The platform offers a user-friendly interface for
-            both merchants and customers, making online shopping simple and
-            secure.
-          </p>
-          <p>
-            Easily manage your product catalog, inventory, pricing, and
-            promotions. Customers can browse products, add items to their
-            cart, and complete purchases with secure payment options. The
-            system supports multiple payment gateways and shipping methods for
-            maximum flexibility.
-          </p>
-          <p>
-            Advanced order management tools help you track orders, process
-            returns, and communicate with customers. Built-in analytics and
-            reporting features provide insights into sales performance,
-            customer behavior, and inventory trends.
-          </p>
-          <p>
-            GLO Ecommerce System is scalable, customizable, and integrates
-            seamlessly with other business tools. Enhance your online
-            presence, improve customer satisfaction, and grow your business
-            with GLO.
-          </p> -->
+        
           <p><strong>GLO Multipurpose E-Commerce System</strong> is a versatile solution for businesses looking to sell online across multiple industries. It supports product listings, shopping carts, secure payments, and customer management in one platform. </p>
           <p>With features for order tracking, promotions, and delivery management, it helps businesses provide a smooth online shopping experience. Fully scalable and customizable, GLO Multipurpose E-Commerce System is ideal for startups, SMEs, and established businesses seeking to expand into digital commerce.</p>
         </div>
@@ -130,7 +105,7 @@
 
     <section id="features">
       <div class="features">
-        <h3>Features of Our GLO-<abbr title="Multipurpose E-commerce System">Ecomm</abbr> </h3>
+        <h3>Features of Our GLO-<abbr title="Multipurpose E-commerce System">Ecom</abbr> </h3>
 
         <div class="features-grid-container">
           <div class="feature">

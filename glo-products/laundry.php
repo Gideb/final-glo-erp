@@ -67,37 +67,12 @@
             src="../images/glo-products/laundry.jpg"
             alt="glo POS with laundry Management System logo" />
         </div>
-        <div class="about-each-text laundry">
+        <With class="about-each-text laundry">
           <h3>ABOUT GLO Laundry Management System</h3>
-          <!--  <p>
-            <strong>GLO Laundry Management System</strong> is a powerful, web-based
-            solution designed for businesses of all sizes to sell products and
-            services online. The platform offers a user-friendly interface for
-            both merchants and customers, making online shopping simple and
-            secure.
-          </p>
-          <p>
-            Easily manage your product catalog, inventory, pricing, and
-            promotions. Customers can browse products, add items to their
-            cart, and complete purchases with secure payment options. The
-            system supports multiple payment gateways and shipping methods for
-            maximum flexibility.
-          </p>
-          <p>
-            Advanced order management tools help you track orders, process
-            returns, and communicate with customers. Built-in analytics and
-            reporting features provide insights into sales performance,
-            customer behavior, and inventory trends.
-          </p>
-          <p>
-            GLO Ecommerce System is scalable, customizable, and integrates
-            seamlessly with other business tools. Enhance your online
-            presence, improve customer satisfaction, and grow your business
-            with GLO.
-          </p> -->
-          <strong> GLO Laundry Management System </strong> is a powerful, cloud-based solution built to simplify the operations of laundry and dry-cleaning businesses. From customer order tracking to inventory and billing, the system ensures accuracy, speed, and customer satisfaction. </p>
-          <p>With features for managing garments, automating notifications, and controlling expenses, GLO Laundry Management System enhances efficiency while reducing manual errors. Whether you run a small laundry shop or a large-scale dry-cleaning business, the platform helps you serve customers better while boosting profitability.</p>
-        </div>
+
+          <p><strong> GLO Laundry Management System </strong> is a complete laundry and dry-cleaning management system built to digitize and optimize every step of the workflow — from order intake to delivery. It supports retail and commercial laundries with modules for POS, production control, delivery logistics, and analytics.</p>
+          <p> With RFID/barcode garment tracking, automated billing, and real-time order visibility, GLO-LMS ensures operational accuracy, customer satisfaction, and cost efficiency at scale</p>
+      </div>
       </div>
     </section>
 
@@ -108,16 +83,16 @@
 
         <div class="features-grid-container">
           <div class="feature">
-            <i class="fas fa-house-user laundry"></i> <br> <strong class="laundry">Order Tracking</strong> <br><br> Manage laundry orders from drop-off to delivery.
+            <i class="fas fa-desktop   laundry"></i> <br> <strong class="laundry">Smart Order Management </strong> <br><br> Multi-channel order intake via POS, mobile app, or web portal.
           </div>
           <div class="feature">
-            <i class="fas fa-warehouse laundry"></i> <br> <strong class="laundry">Inventory Management </strong> <br><br> Track garments, detergents, and supplies in real time.
+            <i class="fas fa-box laundry"></i> <br> <strong class="laundry">Production Control </strong> <br><br> Track wash cycles, QC checks, and machine performance in real time.
           </div>
           <div class="feature">
-            <i class="far fa-comments laundry"></i> <br><strong class="laundry"> Customer Engagement </strong> <br><br> Automated SMS/email alerts for order updates.
+            <i class="fas fa-truck-fast laundry"></i> <br><strong class="laundry">Logistics & Delivery </strong> <br><br> Optimize pickup and delivery routes with GPS tracking and proof-of-delivery.
           </div>
           <div class="feature">
-            <i class="fa-solid fa-money-check-dollar laundry"></i> <br><strong class="laundry">Billing & Payments</strong> <br> <br> Generate invoices and accept multiple payment options.
+            <i class="fa-solid fa-comment-dollar laundry"></i> <br><strong class="laundry"> Business Intelligence </strong> <br> <br> Get performance insights with dashboards for sales, staff, and machine usage.
           </div>
         </div>
 
