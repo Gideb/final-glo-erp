@@ -21,16 +21,16 @@
 
   <?php include './includes/header.php'; ?>
 
-  <section>
+  <section id="contact-header">
     <div class="contact-header">
       <h2> Request A Demo</h2>
     </div>
   </section>
 
-<legend>
-      Use the form below to request a personalized demo of any GLO-ERP product. We’re here to help with all
-      questions and inquiries.
-    </legend>
+  <legend>
+    Use the form below to request a personalized demo of any GLO-ERP product. We’re here to help with all
+    questions and inquiries.
+  </legend>
 
 
   <div class="contact-container">
@@ -98,7 +98,7 @@
           class="select-product">
 
           <option value="">---</option>
-          <option value="food">Food Ordering Management System</option>
+          <option value="food">Restaurant Management System</option>
           <option value="hospital">Hospital/Clinic Management System</option>
           <option value="hotel">Hotel Management System</option>
           <option value="hrms">Human Resource Management System</option>
@@ -127,6 +127,8 @@
 
   <script src="../GloERP/js/demo.js"></script>
   <script src="../GloERP/js/script.js"></script>
+  <script src="../GloERP/js/toTop.js"></script>
+
 </body>
 
 </html>

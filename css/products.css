@@ -7,7 +7,7 @@
 :root {
   --text-color: #055f80;
   --second-text-color: #1d1d1d;
-  --new-text: #eee;
+  --new-text: #fff;
 }
 
 #hero-section{
@@ -15,13 +15,31 @@
   padding: 0;
 }
 
+
 .hero-div {
+  position: relative;
   text-align: center;
   margin: 0;
-  padding: 120px 0;
-  background: url(../images/glo-products/banners/blue.jpg);
+  padding: 150px 0;
+  background: url(../images/glo-products/banners/products.jpg);
   background-size: cover;
+  background-position: center;
+  z-index: 0;
+
 }
+
+
+.hero-div::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
 
 .hero-div h1 {
   font-size: 2rem;

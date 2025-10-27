@@ -27,8 +27,7 @@
     <div class="hero-div">
       <h1>One platform, Endless Business Possibilities</h1>
       <p>
-        Streamline your business processes with GLO-ERP's integrated
-        solutions.
+        Streamline your business processes with GLO-ERP's integrated solutions.
       </p>
       <!-- <a href="#product-showcase" class="btn ">Explore Products</a> -->
     </div>
@@ -462,6 +461,7 @@
 
 
   <script src="../GloERP/js/script.js"></script>
+  <script src="../GloERP/js/toTop.js"></script>
 
 </body>
 

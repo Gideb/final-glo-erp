@@ -28,7 +28,7 @@
   <main>
     <section id="about-section">
       <div class="about-section food">
-        <h2>GLO Food Ordering System</h2>
+        <h2>GLO Restaurant Management System</h2>
         <p>Streamlining food delivery and takeout services</p>
       </div>
     </section>
@@ -47,10 +47,10 @@
             <div class="card-front">
               <img
                 src="../images/glo-products/banners/gloposshot.png"
-                alt="glo food ordering management system screenshot" />
+                alt="glo Restaurant management system screenshot" />
             </div>
             <div class="card-back food">
-              “Manage your pharmacy inventory, sales, and prescriptions with ease. Streamline operations and improve accuracy.”
+              “Manage your restaurant orders, menus, and inventory effortlessly. Streamline operations, enhance customer service, and boost efficiency.”
 
               <div class="card-button">
 
@@ -69,10 +69,10 @@
         <div class="about-each-img">
           <img
             src="../images/glo-products/glo-restaurant.jpg"
-            alt="glo food ordering management system logo" />
+            alt="glo Restaurant management system logo" />
         </div>
         <div class="about-each-text food">
-          <h3>ABOUT GLO Food Ordering System</h3>
+          <h3>ABOUT GLO Restaurant System</h3>
 
           <p>
             <strong> GLO Restaurant Management System </strong> is a modern, cloud-based restaurant management solution that connects front-of-house, kitchen, and back-office operations into one seamless platform.
@@ -107,19 +107,7 @@
     </section>
 
 
-    <section id="demo">
-      <h3>Watch Our Demo</h3>
-      <div class="demo-video">
-        <iframe
-          src="https://www.youtube.com/embed/https://www.youtu.be/b1_yZDLJlA0"
-          width="100%"
-          height="600"
-          title="demo video"
-          frameborder="0"
-          allowfullscreen></iframe>
-      </div>
-    </section>
-
+    <?php include '../includes/demovideo.php' ?>
 
     <section id="installation">
       <h3>Installation Type</h3>
@@ -130,12 +118,12 @@
         </p>
         <div class="installation-grid">
           <div class="installation-card online">
-            <h4 class="food">Online Installation</h4>
+            <h4 class="food"><span class="fa-solid fa-cloud"></span> Online Installation</h4>
             <?php include '../includes/onlineInstall.php' ?>
 
           </div>
           <div class="installation-card offline">
-            <h4 class="food">Offline Installation</h4>
+            <h4 class="food"><span class="fa-solid fa-server"></span> Offline Installation</h4>
             <?php include '../includes/offlineInstall.php' ?>
 
           </div>
@@ -145,24 +133,18 @@
     <?php include '../includes/gotoContDemo.php' ?>
 
 
-
-    <!--  <section id="contact">
-      <div class="contact">
-        <h4>
-          Do you have any questions or inquiries? Feel free to reach out to us!
-        </h4>
-        <div class="button-container">
-          <a class="btn" href="contact.php">Request a Demo</a>
-          <a class="btn" href="contact.php">Contact Us</a>
-        </div>
-      </div>
-    </section> -->
   </main>
 
   <!-- Footer -->
-  <?php include '../includes/footer.php'; ?>
+  <?php include '../includes/gloProdFooter.php'; ?>
+
+
+  <!-- js links -->
+  <script src="../js/videodemo.js"></script>
 
   <script src="../js/script.js"></script>
+
+
 
 </body>
 

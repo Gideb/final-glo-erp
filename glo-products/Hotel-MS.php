@@ -131,20 +131,8 @@
     </section>
 
 
-    <section id="demo">
-      <h3>Watch Our Demo</h3>
-      <div class="demo-video">
-        <iframe
-          src="https://www.youtube.com/embed/https://www.youtu.be/b1_yZDLJlA0"
-          width="100%"
-          height="600"
-          title="demo video"
-          frameborder="0"
-          allowfullscreen></iframe>
-      </div>
+    <?php include '../includes/demovideo.php' ?>
 
-
-    </section>
     <section id="installation">
       <h3>Installation Type</h3>
       <div class="installation hotel">
@@ -154,12 +142,12 @@
         </p>
         <div class="installation-grid">
           <div class="installation-card online">
-            <h4 class="hotel">Online Installation</h4>
+            <h4 class="hotel"><span class="fa-solid fa-cloud"></span> Online Installation</h4>
             <?php include '../includes/onlineInstall.php' ?>
 
           </div>
           <div class="installation-card offline">
-            <h4 class="hotel">Offline Installation</h4>
+            <h4 class="hotel"><span class="fa-solid fa-server"></span> Offline Installation</h4>
             <?php include '../includes/offlineInstall.php' ?>
 
           </div>
@@ -172,26 +160,19 @@
 
 
 
-    <!-- <section id="contact">
-      <div class="contact">
-        <h4>
-          Do you have any questions or inquiries? Feel free to reach out to us!
-        </h4>
-        <div class="button-container">
-          <a class="btn" href="contact.php">Request a Demo</a>
-          <a class="btn" href="contact.php">Contact Us</a>
-        </div>
-      </div>
-    </section> -->
 
 
   </main>
 
   <!-- Footer -->
 
-  <?php include '../includes/footer.php' ?>
+  <?php include '../includes/gloProdFooter.php' ?>
 
   <script src="../js/script.js"></script>
+  <script src="../js/videodemo.js"></script>
+
+
+
 </body>
 
 </html>

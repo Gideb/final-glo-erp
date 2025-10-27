@@ -11,11 +11,33 @@ window.addEventListener("load", function () {
 
 
 
+/* back to top */
+
+const backToTop = document.getElementById("back-to-top");
+
+window.addEventListener("scroll", () => {
+  if (window.scrollY > 100) {
+    backToTop.classList.add("show");
+  } else {
+    backToTop.classList.remove("show");
+  }
+});
+
+backToTop.addEventListener("click", () => {
+  window.scrollTo({
+    top: 0,
+    behavior: "smooth",
+  });
+});
+
+
+
 /* sidenav */
 
 const hamburger = document.getElementById("bars");
 const sidenav = document.querySelector(".sidenav");
 const closebtn = document.getElementById("close");
+const dropdown = document.querySelector(".dropdown-container");
 
 hamburger.addEventListener("click", () => {
   sidenav.classList.toggle("open");
@@ -24,6 +46,8 @@ hamburger.addEventListener("click", () => {
 closebtn.addEventListener("click", () => {
   sidenav.classList.remove("open");
 });
+
+
 
 /* slideshow */
 
@@ -35,7 +59,7 @@ function plusSlides(n) {
   showSlides((slideIndex += n));
 }
 
-//attachign event listeners by gil
+//attaching event listeners by gilbert
 document.querySelector(".prev").addEventListener("click", () => plusSlides(-1));
 document.querySelector(".next").addEventListener("click", () => plusSlides(1));
 

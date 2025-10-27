@@ -75,39 +75,6 @@
         </div>
         <div class="about-each-text school">
 
-          <!--  <p>
-            <strong>GLO School Management System</strong> is a comprehensive,
-            web-based platform designed to streamline school operations and
-            improve educational outcomes. The system offers intuitive tools
-            for managing student enrollment, attendance, grades, timetables,
-            and examinations.
-          </p>
-          <p>
-            Teachers can easily track academic progress, communicate with
-            parents, and organize classroom activities. Administrators benefit
-            from automated fee management, staff scheduling, and resource
-            allocation, while students and parents enjoy secure access to
-            important information and updates.
-          </p>
-          <p>
-            Advanced reporting and analytics provide insights into student
-            performance, school finances, and operational efficiency. GLO SMS
-            supports multi-campus management, making it suitable for schools
-            of all sizes.
-          </p>
-          <p>
-            With robust security and customizable features, GLO School
-            Management System helps you create a connected, efficient, and
-            thriving educational environment.
-          </p> -->
-          <!--   <p>
-            <strong>GLO School Management System</strong> is an all-in-one, cloud-based school management solution designed to improve efficiency, communication, and learning outcomes. It centralizes student, teacher, and administrative information, making it easy to manage admissions, attendance, timetables, exams, and financial operations from one secure platform.
-          </p>
-          <p>
-            With built-in portals for parents, teachers, and students, GLO SMS promotes collaboration and transparency while keeping everyone informed through automated alerts and notifications. The system also supports fee collection, payroll management, library tracking, and event scheduling, ensuring schools run smoothly both inside and outside the classroom. </p>
-          <p>
-            By combining robust security, data-driven reporting, and customizable features, GLO SMS empowers schools to focus on what matters most—delivering quality education.
-          </p> -->
 
           <p>
             <strong>GLO <abbr title="School Management System">SMS</abbr> </strong> is a comprehensive, cloud-based solution tailored for schools of all sizes. It centralizes student, teacher, and administrative data to streamline academic and operational processes. From admissions and attendance to exams, finance, and communication, the platform ensures a smoother flow of information between school staff, parents, and students.
@@ -141,18 +108,7 @@
       </div>
     </section>
 
-    <section id="demo">
-      <h3>Watch Our Demo</h3>
-      <div class="demo-video">
-        <iframe
-          src="https://www.youtube.com/embed/https://www.youtu.be/b1_yZDLJlA0"
-          width="100%"
-          height="600"
-          title="demo video"
-          frameborder="0"
-          allowfullscreen></iframe>
-      </div>
-    </section>
+    <?php include '../includes/demovideo.php' ?>
 
     <section id="installation">
       <h3>Installation Type</h3>
@@ -164,11 +120,11 @@
 
         <div class="installation-grid">
           <div class="installation-card online">
-            <h4 class="school">Online Installation</h4>
+            <h4 class="school"><span class="fa-solid fa-cloud"></span> Online Installation</h4>
             <?php include '../includes/onlineInstall.php' ?>
           </div>
           <div class="installation-card offline">
-            <h4 class="school">Offline Installation</h4>
+            <h4 class="school"><span class="fa-solid fa-server"></span> Offline Installation</h4>
             <?php include '../includes/offlineInstall.php' ?>
 
           </div>
@@ -180,49 +136,18 @@
 
     <?php include '../includes/gotoContDemo.php' ?>
 
-    <!-- <section id="installation">
-      <h3>Installation Type</h3>
-      <div class="installation school">
-        <p>
-          GLO School Management System can be installed in two modes to
-          suit your business needs:
-        </p>
-        <div class="installation-grid">
-          <div class="installation-card online">
-            <h4 class="school">Online Installation</h4>
-            <p>
-              Access the system from anywhere, manage data in real-time, and benefit from automatic updates and cloud backups.
-            </p>
-          </div>
-          <div class="installation-card offline">
-            <h4 class="school">Offline Installation</h4>
-            <p>
-              Ideal for businesses with limited internet connectivity. All features are available locally, and data is stored securely on
-              your premises.
-            </p>
-          </div>
-        </div>
-      </div>
-    </section> -->
-
-    <!-- <section id="contact">
-      <div class="contact">
-        <h4>
-          Do you have any questions or inquiries? Feel free to reach out to us!
-        </h4>
-        <div class="button-container">
-          <a class="btn" href="contact.php">Request a Demo</a>
-          <a class="btn" href="contact.php">Contact Us</a>
-        </div>
-      </div>
-
-    </section> -->
   </main>
 
   <!-- Footer -->
-  <?php include '../includes/footer.php' ?>
+  <?php include '../includes/gloProdFooter.php' ?>
 
+
+  <!-- js links -->
   <script src="../js/script.js"></script>
+  <script src="../js/videodemo.js"></script>
+ 
+
+
 </body>
 
 </html>

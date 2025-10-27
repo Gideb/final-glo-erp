@@ -24,7 +24,10 @@
                  <a href="products.php">
                      <span class="fa-solid fa-laptop"></span>
                      Products
-                     <i class="fa-solid fa-caret-down"></i>
+                     <span class="plusminus">
+                         <i class="fa-solid fa-plus"></i>
+                         <i class="fa-solid fa-minus"></i>
+                     </span>
                  </a>
 
                  <ul class="dropdown">

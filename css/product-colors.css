@@ -1,7 +1,7 @@
 :root {
   --pos-color: #020884;
   --hospital-color: #090331;
-  --ecommerce-color: #b88655;
+  --ecommerce-color: #b67e47;
   --hotel-color: #842d02;
   --hrms-color: #e17616;
   --school-color: #fb0a2b;
@@ -151,21 +151,6 @@
   color: var(--hotel-color);
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* installation colors */
 .installation.pos {
   background-color: var(--pos-color);
@@ -253,5 +238,14 @@
 }
 .btn-product.laundry {
   background-color: var(--laundry-color);
+}
+ */
+
+/* @media (max-width: 900px) {
+  .about-section.hms {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
 }
  */

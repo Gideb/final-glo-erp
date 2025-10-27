@@ -1,27 +1,27 @@
 <footer>
     <div class="footer-main">
         <div class="footer-logo">
-            <img src="images/glo-logo-faded.png" alt="glo-erp logo">
+            <img src="../images/glo-logo-faded.png" alt="glo-erp logo">
 
         </div>
         <div class="quick-links">
             <nav>
                 <ul>
                     <li>
-                        <a href="index.php">Home</a>
+                        <a href="../index.php">Home</a>
                     </li>
                     <li>
-                        <a href="products.php">Products
+                        <a href="../products.php">Products
 
                         </a>
                     </li>
                     <li>
-                        <a href="contact.php">Contact
+                        <a href="../contact.php">Contact
 
                         </a>
                     </li>
                     <li>
-                        <a href="demo.php">Request a demo
+                        <a href="../demo.php">Request a demo
 
                         </a>
                     </li>
@@ -32,7 +32,7 @@
             <h4 class="color-yellow">Get to know us</h4>
             <ul>
                 <li>
-                    <a href="https://www.linkedin.com/utsdevelopers">
+                    <a href="https://www.linkedIn.com/utsdevelopers">
                         <i class="fab fa-linkedin"></i>
                     </a>
                 </li>
@@ -65,7 +65,6 @@
     <p>&copy; 2025 GLO-ERP. All Rights Reserved. Powered By
         <a class="color-yellow" href="https://utsdevelopers.com">UTS Developers</a>
     </p>
-
 
     <button id="back-to-top" type="button">
         <i class="fas fa-arrow-up-long"></i>

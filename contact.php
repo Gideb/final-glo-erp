@@ -28,7 +28,7 @@
                 <div class="contact-header">
                     <h2> CONTACT US</h2>
                     <p>
-                        Home : Contact Us
+                        Contact Us
                     </p>
                 </div>
                 <div class="contact-main">
@@ -154,6 +154,8 @@
 
     <script src="../GloERP/js/demo.js"></script>
     <script src="../GloERP/js/script.js"></script>
+    <script src="../GloERP/js/toTop.js"></script>
+
 </body>
 
 </html>

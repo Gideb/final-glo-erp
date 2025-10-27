@@ -16,15 +16,16 @@
                  <a href="../index.php"><span class="fa-solid fa-house"></span>
                      Home</a>
              </li>
-             <!-- <li>
-                <a href="../index.php"><span class="fa-solid fa-address-card"></span> About GLO-ERP</a>
-            </li> -->
+
 
              <li class="dropdown-container">
                  <a href="../products.php">
                      <span class="fa-solid fa-laptop"></span>
                      Products
-                     <i class="fa-solid fa-caret-down"></i>
+                     <span class="plusminus">
+                         <i class="fa-solid fa-plus"></i>
+                         <i class="fa-solid fa-minus"></i>
+                     </span>
                  </a>
 
                  <ul class="dropdown">
