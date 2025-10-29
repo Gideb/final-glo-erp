@@ -1,5 +1,7 @@
 //added by gil
 
+document.getElementById("year").innerHTML = new Date().getFullYear();
+
 /* loading spinner */
 document.addEventListener("DOMContentLoaded", function () {
   document.getElementById("loader-wrapper").style.display = "none";
@@ -8,8 +10,6 @@ document.addEventListener("DOMContentLoaded", function () {
 window.addEventListener("load", function () {
   document.getElementById("loader-wrapper").style.display = "none";
 });
-
-
 
 /* back to top */
 
@@ -30,8 +30,6 @@ backToTop.addEventListener("click", () => {
   });
 });
 
-
-
 /* sidenav */
 
 const hamburger = document.getElementById("bars");
@@ -46,8 +44,6 @@ hamburger.addEventListener("click", () => {
 closebtn.addEventListener("click", () => {
   sidenav.classList.remove("open");
 });
-
-
 
 /* slideshow */
 

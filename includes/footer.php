@@ -11,19 +11,16 @@
                         <a href="index.php">Home</a>
                     </li>
                     <li>
-                        <a href="products.php">Products
-
-                        </a>
+                        <a href="products.php">Products</a>
                     </li>
                     <li>
-                        <a href="contact.php">Contact
-
-                        </a>
+                        <a href="contact.php">Contact </a>
                     </li>
                     <li>
-                        <a href="demo.php">Request a demo
-
-                        </a>
+                        <a href="demo.php">Request a demo </a>
+                    </li>
+                    <li>
+                        <a href="https://utsdevelopers.com">UTS Developers </a>
                     </li>
                 </ul>
             </nav>
@@ -62,8 +59,9 @@
         </div>
     </div>
     <hr>
-    <p>&copy; 2025 GLO-ERP. All Rights Reserved. Powered By
-        <a class="color-yellow" href="https://utsdevelopers.com">UTS Developers</a>
+    <p>
+        &copy; <span id="year"></span> GLO-ERP &nbsp; &bull; &nbsp; All Rights Reserved &nbsp; &bull; &nbsp; Powered by <a class="color-orange" href="https://utsdevelopers.com">UTS Developers</a>
+
     </p>
 
 
